@@ -106,6 +106,8 @@ export default function ContactForm() {
         <div
           className="cf-turnstile"
           data-sitekey="0x4AAAAAADYTULVqsNPZaa17"
+          data-theme="light"
+          data-size="normal"
           style={{ minHeight: "70px" }}>
         </div>
 
