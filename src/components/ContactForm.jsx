@@ -105,7 +105,8 @@ export default function ContactForm() {
         </div>
         <div
           className="cf-turnstile"
-          data-sitekey="0x4AAAAAADYTULVqsNPZaa17">
+          data-sitekey="0x4AAAAAADYTULVqsNPZaa17"
+          style={{ minHeight: "70px" }}>
         </div>
 
         <button
