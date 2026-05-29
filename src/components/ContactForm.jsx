@@ -7,6 +7,15 @@ export default function ContactForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+       const token = document.querySelector(
+      '[name="cf-turnstile-response"]'
+    )?.value;
+  
+    if (!token) {
+      alert("Please complete verification");
+      return;
+    }
+
     setIsSubmitting(true);
 
     const form = e.currentTarget;
