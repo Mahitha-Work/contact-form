@@ -94,6 +94,10 @@ export default function ContactForm() {
             placeholder="Write your message here..."
           />
         </div>
+        <div
+          className="cf-turnstile"
+          data-sitekey="0x4AAAAAADYTULVqsNPZaa17">
+        </div>
 
         <button
           type="submit"
